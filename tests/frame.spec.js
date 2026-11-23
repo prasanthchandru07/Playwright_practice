@@ -112,7 +112,7 @@ test("nested frame using framelocator method", async({page})=>{
 
 
 
-test.only("nested using frame", async({page})=>{
+test("nested using frame", async({page})=>{
 
     await page.goto("https://letcode.in/frame");
 
